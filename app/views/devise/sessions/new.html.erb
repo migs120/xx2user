@@ -5,8 +5,8 @@
     <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
       <%= devise_error_messages! %>
       <div class="form-group">
-        <%= f.label :name %>
-        <%= f.text_field :name, autofocus: true, class: 'form-control', placeholder: "Enter email" %>
+        <%= f.label :UserID %>
+        <%= f.text_field :name, autofocus: true, class: 'form-control', placeholder: "Enter UserID" %>
       </div>
       <div class="form-group">
         <%= f.label :password %>
